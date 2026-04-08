@@ -1,4 +1,4 @@
-# 🧪 Química Pro
+# 🧪 Nomenclatura
 
 Aplicación web interactiva que analiza fórmulas químicas ingresadas por el usuario y genera automáticamente su nomenclatura en tres sistemas:
 
