@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Química Pro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>🧪 Nomenclatura</h1>
+
+  <div class="input-group">
+    <input id="formula" placeholder="Ej: HClO4, Fe2O3, Ca(OH)2">
+    <button onclick="convertir()">Analizar</button>
+  </div>
+
+  <!-- 🔥 TABS -->
+  <div class="tabs">
+    <button class="tab active" onclick="cambiarTab('resultadoTab')">Resultado</button>
+    <button class="tab" onclick="cambiarTab('historialTab')">Historial</button>
+  </div>
+
+  <!-- RESULTADO -->
+  <div id="resultadoTab" class="tab-content active">
+    <div id="resultado" class="card"></div>
+  </div>
+
+  <!-- HISTORIAL -->
+  <div id="historialTab" class="tab-content">
+    <ul id="historial"></ul>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
